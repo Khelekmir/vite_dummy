@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+#root {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body {
+  background-image: url('https://cdn.fireemblemwiki.org/1/1a/FEH_Corrin_Dream_Princess_02a.png'); /* Specify the path to your background image */
+  /* Other options for background-size are:
+     contain (resize to fit inside the container while maintaining aspect ratio)
+     cover (resize to cover the entire container, cropping if necessary)
+     auto (use the image's natural size)
+     [number]px [number]px (resize to the specified width and height)
+  */
+  background-size: contain;   
+  background-position: center;  
+  background-repeat: no-repeat; 
+  margin: 0;  /* Optional: Removes default margin */
+  padding: 0;  /* Optional: Removes default padding */
+  width: 100%;
+  height: 100%;
+}
+
+
+.card {
+  padding: 2em;
+}
+
+.sermon-card {
+  height: 60vh;
+  /* Inherit other styles from the default card class */
+  padding: 2em; /* This is just an example, adjust as needed */
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  /* Add any other styles you want to inherit from the default card */
+}
+
+
+.read-the-docs {
+  color: #888;
+}
